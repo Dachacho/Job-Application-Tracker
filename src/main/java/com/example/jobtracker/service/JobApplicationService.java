@@ -5,6 +5,7 @@ import com.example.jobtracker.mapper.JobApplicationMapper;
 import com.example.jobtracker.model.JobApplication;
 import com.example.jobtracker.repository.JobApplicationRepository;
 import jakarta.persistence.EntityNotFoundException;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

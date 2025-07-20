@@ -14,6 +14,7 @@ public class JobApplicationMapper {
         dto.setPosition(entity.getPosition());
         dto.setStatus(entity.getStatus());
         dto.setAppliedDate(entity.getAppliedDate());
+        dto.setUserId(entity.getUser() != null ? entity.getUser().getId() : null);
         return dto;
     }
 

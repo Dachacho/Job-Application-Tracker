@@ -15,4 +15,5 @@ public class JobApplicationDTO {
     private String position;
     private String status;
     private LocalDate appliedDate;
+    private Long userId;
 }

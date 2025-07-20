@@ -73,7 +73,3 @@ The app will start on [http://localhost:8080](http://localhost:8080)
 - Add pagination and filtering to job application endpoints by extending repository and service methods.
 - Switch to a persistent database by updating the datasource configuration in `application.properties`.
 - Add more user profile features, roles, or admin controls as needed.
-
-## License
-MIT
-
